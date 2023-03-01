@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    background-color:#f9f8f8;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+}
+header{
+    border: 1px solid black;
+    height: 100vh;
+    position: sticky;
+    top:0;
+    
+}
+nav h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #252525;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    background-color: #b6b4b4;
+}
+nav ul li{
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    color: #252525;
+    font-weight: 500;
+    padding: 10px;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: #c8c5c5;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+main{
+    padding: 50px;
+    max-width: 1100px;
+}
+section{
+    margin-bottom: 60px;
+    text-align: justify;
+}
+section h1{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+section article{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* article p{
+    margin-bottom: 15px;
+    text-align: justify;
+}*/
+code{
+    background-color: #e3e3e3;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    white-space: pre-line;
+    line-height: 2;
+}
+section article ul{
+    margin-left: 30px;
+}
+section article ul li{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+@media (max-width:480px){
+    body{
+        flex-direction: column;
+    }
+    header{
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}

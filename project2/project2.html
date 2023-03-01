@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project2.css">
+    <title>Job Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="application">
+            <h1>Job Application
+            <span class="web">(Web)</span></h1>
+            <form action="">
+                <div class="formapp">
+                    <div class="formgroup">
+                        <label for="fmane">First Name</label>
+                        <input type="text" name="myfname" id="fname" placeholder="Enter your First Name">
+                    </div>
+                    <div class="formgroup">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="mylname" id="lname" placeholder="Enter your Last Name">
+                    </div>
+                    <div class="formgroup">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mymail" id="mail" placeholder="Enter your email">
+                    </div>
+                    <div class="formgroup">
+                        <label for="jobs">Job Role</label>
+                        <select name="myjobs" id="jobs">
+                            <option value="SJR">Select Job Role</option>
+                            <option value="FDE">Frontend Developer</option>
+                            <option value="SDE">Software Developer</option>
+                            <option value="BDE">Backend Developer</option>
+                            <option value="UI/UX">UI/UX Developer</option>
+                            <option value="SQLD">SQL Developer</option>
+                        </select>
+                    </div>
+                    <div class="textarea_container">
+                        <label for="description">Description</label>
+                        <textarea name="mybio" id="description" cols="50" rows="8" placeholder="Enter about yourself"></textarea>
+                    </div>
+                    <div class="formgroup">
+                        <label for="city">City</label>
+                        <input type="text" name="mycity" id="city" placeholder="Enter about yourself">
+                    </div>
+                    <div class="formgroup">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" name="mypincode" id="pincode" placeholder="Enter your pincode">
+                    </div>
+                    <div class="formgroup">
+                        <label for="date">Date</label>
+                        <input type="date" name="mydate" id="date" placeholder="yyyy-mm-dd">
+                    </div>
+                    <div class="formgroup">
+                        <label for="file">Upload your Resume/CV</label>
+                        <input type="file" name="myfile" id="file">
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

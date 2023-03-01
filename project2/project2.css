@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 81, 150);
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.application{
+    max-width: 600px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 4px 3px 2px rgba(255, 255, 255, 0.2);
+}
+.web{
+    font-size: 20px;
+}
+.formapp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.formgroup{
+    display: flex;
+    flex-direction: column;
+}
+.textarea_container{
+    grid-column: 1 / span 2;
+}
+.textarea_container textarea{
+    width: 100%;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(211, 233, 252);
+    border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 16px;
+    transition: 0.2s ease-out;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    transition: ease-in-out;
+    background-color:rgb(21, 118, 203)
+}
