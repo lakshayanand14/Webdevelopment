@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+
+#cardcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+}
+
+.container{
+  margin: 20px;
+  padding: 10px;
+}
